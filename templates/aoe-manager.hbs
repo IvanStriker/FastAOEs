@@ -1,0 +1,79 @@
+<form class="aoe-effect-manager-form">
+
+
+  <section class="aoe-effect-manager-title">
+    {{localize "AOE-EFFECT-MANAGER.window-title"}}
+  </section>
+
+
+  <section class="aoe-effect-manager-top-section">
+
+    <section class="aoe-effect-manager-bicolumn">
+
+      <section class="aoe-effect-manager-label-column">
+        <label>{{localize "AOE-EFFECT-MANAGER.window-damage-item"}}:</label>
+        <label>{{localize "AOE-EFFECT-MANAGER.window-type-of-damage-item"}}:</label>
+      </section>
+
+      <section class="aoe-effect-manager-input-column">
+        <input type="text" value="0" name="damage">
+        <select name="damageType">
+          {{#each damageTypes}}
+            <option value="{{@key}}">{{@key}}</option>
+          {{/each}}
+        </select>
+      </section>
+
+    </section>
+
+    <section class="aoe-effect-manager-bicolumn">
+
+      <section class="aoe-effect-manager-label-column">
+        <label>{{localize "AOE-EFFECT-MANAGER.window-saving-throw-item"}}:</label>
+        <label>{{localize "AOE-EFFECT-MANAGER.window-difficulty-of-saving-throw-item"}}:</label>
+      </section>
+
+      <section class="aoe-effect-manager-input-column">
+        <select name="savingThrow">
+          {{#each abilities}}
+            <option value="{{@key}}">{{@key}}</option>
+          {{/each}}
+        </select>
+        <input type="text" value="0" name="savingThrowDC">
+      </section>
+
+    </section>
+
+  </section>
+
+
+  <section class="aoe-effect-manager-medium-section">
+
+    <section class="aoe-effect-manager-bicolumn">
+
+      <section class="aoe-effect-manager-label-column">
+        <label>{{localize "AOE-EFFECT-MANAGER.window-condition-item"}}:</label>
+      </section>
+
+      <section class="aoe-effect-manager-input-column">
+        <select name="condition">
+          {{#each conditions}}
+            <option value="{{@key}}">{{@key}}</option>
+          {{/each}}
+        </select>
+      </section>
+
+    </section>
+
+  </section>
+
+
+  <section class="aoe-effect-manager-bottom-section">
+
+    <button type="button" data-action="apply">{{localize "AOE-EFFECT-MANAGER.window-back-item"}}</button>
+    <button type="button" data-action="back">{{localize "AOE-EFFECT-MANAGER.window-apply-item"}}</button>
+
+  </section>
+
+
+</form>

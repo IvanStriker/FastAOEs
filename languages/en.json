@@ -1,0 +1,15 @@
+{
+    "AOE-MANAGER": {
+      "window-title": "AOE Config",
+      "window-damage-item": "damage",
+      "window-type-of-damage-item": "type of damage",
+      "window-saving-throw-item": "saving throw",
+      "window-difficulty-of-saving-throw-item": "saving throw DC",
+      "window-condition-item": "condition",
+      "window-back-item": "Back",
+      "window-target-config-item": "Target editor",
+      "window-apply-item": "Apply",
+      "LR-window-title": "Legendary resistance spending request",
+      "LR-window-text": "<p> One of the targets who has a legendary resistance failed the saving throw. Do you want to spend the resistance?</p>"
+    }
+}

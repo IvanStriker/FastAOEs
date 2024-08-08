@@ -1,0 +1,15 @@
+{
+    "AOE-MANAGER": {
+      "window-title": "Настройка AOE",
+      "window-damage-item": "урон",
+      "window-type-of-damage-item": "тип урона",
+      "window-saving-throw-item": "спасбросок",
+      "window-difficulty-of-saving-throw-item": "сила спасброска",
+      "window-condition-item": "состояние",
+      "window-back-item": "Назад",
+      "window-target-config-item": "Редактор целей",
+      "window-apply-item": "Применить",
+      "LR-window-title": "Запрос на использование легендарного сопротивления",
+      "LR-window-text": "<p> Один из актёров, у кого осталось легендарное сопротивление, провалил спасбросок. Желаете потратить сопротивление?</p>"
+    }
+}
