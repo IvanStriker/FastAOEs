@@ -1,6 +1,6 @@
-# Быстрые AOE
-Этот модуль предоставляет возможность применять один и тот же урон к группе целей. Цели кидают спасброски и получать полный урон при провале и пол-урона при успехе. И всё это автоматически!
+#Fast AOEs
+This module provides the ability to apply the same damage to a group of targets. Targets roll saving throws and receive full damage on failure and half damage on success. And it's all automatic!
 
-Как же модуль работает? Просто выделите все токены на карте, которые должны получить урон, зажав Shift. Далее нажмите на кнопку 'AOE' слева на панеле инструментов. В открывшемся окне введите урон, его тип, силу и вид спасброска и нажмите 'Применить'.
+How does the module work? Simply select all the tokens on the map that should receive damage by holding Shift. Then click on the 'AOE' button on the left side of the toolbar. In the window that opens, enter the damage, its type, strength and type of saving throw and click 'Apply'.
 
-Если у актёра есть иммунитет к выбранному виду урона, то такой актёр не рассматривается, как цель, и он не кидает спасбросок. Если у одного из проваливших спасбросок актёров есть легендарное сопротивление, модуль спросит Вас, тратить его или нет.
+If an actor is immune to the selected damage type, that actor is not treated as a target and does not roll a saving throw. If one of the actors that failed the saving throw has legendary resistance, the module will ask you whether to spend it or not.
